@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f5">
+<title>For Anukriti ✨</title>
+<style>
+:root{--pink:#f6a9c5;--rose:#b84f78;--cream:#fff9fc;--ink:#684456}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(160deg,#fff7fb,#fce5ef 55%,#fff9f2);color:var(--ink);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 22px;position:relative}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#e99ab9;font-size:34px;animation:twinkle 2.5s infinite alternate}
+.hero:before{top:13%;left:12%}.hero:after{right:13%;bottom:16%}
+@keyframes twinkle{to{transform:scale(1.5) rotate(25deg);opacity:.4}}
+.card{max-width:760px;background:#ffffffb8;border:1px solid #fff;box-shadow:0 18px 60px #c8799b25;border-radius:32px;padding:clamp(28px,6vw,58px);backdrop-filter:blur(8px)}
+.eyebrow{letter-spacing:4px;text-transform:uppercase;font:12px Arial,sans-serif;color:#b86b8a}
+h1{font-size:clamp(48px,10vw,88px);line-height:.98;margin:18px 0;color:#b84f78;font-weight:normal}
+h2{font-size:clamp(30px,6vw,48px);font-weight:normal;color:#b84f78;margin:0 0 18px}
+p{font-size:18px;line-height:1.75}
+button{border:0;border-radius:999px;background:#c65f88;color:white;padding:15px 26px;font-size:15px;cursor:pointer;box-shadow:0 8px 20px #c65f8840;transition:.2s}
+button:hover{transform:translateY(-3px);background:#a94770}
+section{padding:78px 20px;max-width:1050px;margin:auto;text-align:center}
+.subtitle{max-width:680px;margin:0 auto 32px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.photo{background:white;padding:10px 10px 34px;border-radius:12px;box-shadow:0 12px 30px #8b53601b;transform:rotate(var(--tilt));}
+.photo img{width:100%;height:300px;object-fit:cover;border-radius:7px;display:block}
+.photo span{display:block;padding-top:12px;font-size:15px;color:#95647a}
+.note{background:#fff;border-radius:26px;padding:clamp(25px,5vw,48px);box-shadow:0 15px 45px #c8799b20;text-align:left}
+.note p{font-size:19px}
+.reasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.reason{background:#ffffffc9;border:1px solid white;border-radius:20px;padding:22px;font-size:17px;line-height:1.5}
+.surprise{background:linear-gradient(135deg,#f9d8e5,#fff1f5);border-radius:30px;padding:42px 24px}
+#secret{display:none;max-width:700px;margin:25px auto 0;background:#fff;border-radius:20px;padding:25px;line-height:1.8;font-size:19px}
+footer{padding:40px 15px;text-align:center;color:#a66b83;font-size:14px}
+.heart{color:#d65b8a}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="card">
+  <div class="eyebrow">a little page made with lots of love</div>
+  <div style="font-size:42px;margin-top:20px">🎀 ✨ 🌷</div>
+  <h1>Happy Birthday,<br>Anukriti!</h1>
+  <p>To our favourite girl — today the world gets to celebrate the wonderful person we are so lucky to call our bestie.</p>
+  <button onclick="document.getElementById('memories').scrollIntoView({behavior:'smooth'})">Open your little surprise 💌</button>
+  <p style="font-size:14px;margin-top:24px">With love, Muskan &amp; Tamanna ♡</p>
+ </div>
+</header>
+
+<section id="memories">
+ <div class="eyebrow">little moments, big memories</div>
+ <h2>Our favourite kind of memories 📸</h2>
+ <p class="subtitle">A few snapshots of the smiles, hugs, adventures and ordinary days that became special because we shared them.</p>
+ <div class="gallery">
+  <div class="photo" style="--tilt:-2deg"><img src="memory-1.jpeg" alt="A favourite friendship hug"><span>Always better together ♡</span></div>
+  <div class="photo" style="--tilt:1.5deg"><img src="memory-2.jpeg" alt="A bestie selfie"><span>Two smiles, one friendship ✨</span></div>
+  <div class="photo" style="--tilt:-1deg"><img src="memory-3.jpeg" alt="Friends sharing a hug"><span>My safe-place people 🫂</span></div>
+  <div class="photo" style="--tilt:2deg"><img src="memory-4.jpeg" alt="A sweet cafe memory"><span>Collecting moments, not things 🌷</span></div>
+  <div class="photo" style="--tilt:-1.5deg"><img src="memory-5.jpeg" alt="A fun night out together"><span>More adventures, please! 💗</span></div>
+ </div>
+</section>
+
+<section>
+ <div class="eyebrow">a note from us</div>
+ <h2>Dear Anukriti, 💌</h2>
+ <div class="note">
+  <p>Happy Birthday to our beautiful girl! ❤️</p>
+  <p>Some people make life brighter simply by being in it, and you are one of those people. Thank you for the laughter, the silly moments, the warm hugs, the memories and all the little things that make this friendship so precious.</p>
+  <p>We hope this new year of your life brings you peaceful days, exciting adventures, genuine love and every beautiful thing your heart has been wishing for. May you always find reasons to smile, courage to chase your dreams and people who love you exactly as you are.</p>
+  <p>Never forget how special you are to us. No matter how busy life gets or where it takes us, you will always have two people cheering for you — loudly!</p>
+  <p>All our love,<br><strong>Muskan &amp; Tamanna</strong> ♡</p>
+ </div>
+</section>
+
+<section>
+ <div class="eyebrow">just a few reasons</div>
+ <h2>Why you're so loved 🦋</h2>
+ <div class="reasons">
+  <div class="reason">🌸 Your presence makes ordinary days brighter.</div>
+  <div class="reason">🫂 You make memories feel like home.</div>
+  <div class="reason">✨ Your smile is genuinely contagious.</div>
+  <div class="reason">💗 You are one of a kind — never change.</div>
+ </div>
+</section>
+
+<section>
+ <div class="surprise">
+  <div style="font-size:42px">🎁</div>
+  <h2>One last little surprise…</h2>
+  <p>There's something we want you to remember, today and every day.</p>
+  <button onclick="reveal()">Tap to open your message 💖</button>
+  <div id="secret">Anukriti, you are loved more than this little website could ever explain. Here's to more pictures, endless laughter, spontaneous plans, tight hugs and a lifetime of beautiful memories. Happy birthday, bestie! 🥹💗<br><br>— Muskan &amp; Tamanna</div>
+ </div>
+</section>
+<footer>Made with <span class="heart">♥</span> for Anukriti · Your day, your magic ✨</footer>
+<script>
+function reveal(){const s=document.getElementById('secret');s.style.display='block';s.scrollIntoView({behavior:'smooth',block:'center'});}
+</script>
+</body>
+</html>
